@@ -45,11 +45,32 @@ Un volumen es una carpeta especial que permite guardar datos aunque el contenedo
 
 
 ## 8. Procedimiento
-·· Primer paso 
+# Requisito 
 Eliminar los contenedores existentes para evitar confusiones y hacer un trabajo limpio.
 ![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/1.jpg)
+![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/11.jpg)
 
+# 1 Crear una red
+![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/2.jpg)
 
+ # 2 Crear un volumen para wordpress 
+![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/3.jpg)
+# 3 Crear un volumen para mysql 
+
+![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/4.jpg)
+# 4 Crear un contenedor para mysql 
+![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/5.jpg)
+![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/5.1.jpg)
+# 5 Crear un contenedor para phpmyadmin 
+![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/6.jpg)
+![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/6.1.jpg)
+
+# 6 Crear un contenedor de wordpress 
+![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/7.jpg)
+![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/7.1.jpg)
+![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/7.2.jpg)
+![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/7.3.jpg)
+![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/7.4.jpg)
 ## 9. Resultados esperados
 WordPress accesible en http://localhost:8000
 
@@ -65,9 +86,10 @@ Datos almacenados de forma persistente en volúmenes
 
 
 ## 10. Diagrama
-## 11. Evidencia de funcionamiento
 
-## 12. Bibliografía
+
+
+## 11. Bibliografía
 Docker. (n.d.). Docker networking overview. https://docs.docker.com/network/
 
 phpMyAdmin. (n.d.). phpMyAdmin documentation. https://docs.phpmyadmin.net/
