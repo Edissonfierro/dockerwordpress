@@ -88,7 +88,7 @@ Datos almacenados de forma persistente en volúmenes
 ## 10. Diagrama
 
 ![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/dockerwordpress.jpg)
-![img01](https://github.com/Edissonfierro/dockerwordpress/blob/main/dockerwordpress.jpg)
+
 
 ## 11. Bibliografía
 Docker. (n.d.). Docker networking overview. https://docs.docker.com/network/
